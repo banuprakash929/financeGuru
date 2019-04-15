@@ -13,7 +13,7 @@ type User struct {
 	Contact          string
 	Email            string
 	CreatedTimestamp time.Time
-	Loan             []Loan
+	Loans            []Loan
 }
 
 //Loan struct to describe loan details
